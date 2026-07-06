@@ -1,1 +1,3 @@
-# product-card
+# product cards
+верстка оставшихся карточек
+
