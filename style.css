@@ -5,6 +5,19 @@ body {
   color: #515076;
 }
 
+.button-color-change {
+  display: block;
+  margin: 50px auto;
+  font-size: 30px;
+  background-color: #090664;
+  color: #FFFFFF;
+  padding: 10px 20px;
+}
+.green-button {
+  background-color: green;
+  color: #FFFFFF;
+}
+
 .products {
   max-width: 1110px;
   margin: 5% auto;
@@ -28,8 +41,6 @@ body {
   padding: 0;
   margin: 0 auto;
 }
-
-
 
 .card {
   display: block;
@@ -56,8 +67,6 @@ body {
 .card__component {
   margin-bottom: 5px;
 }
-
-
 
 .price {
   font-size: 20px;
