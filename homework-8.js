@@ -15,16 +15,13 @@ const vehicle = {
   year: 2020,
   color: "Серебристый",
   modelNumber: "XV70",
+  owner: user,
 }
-const ownerVehicle = user
 
 // 5 функция на проверку наличия максимальной скорости в объекте транспортного средства
-function addMaxSpeed(vehicle) {
-  if ('maxSpeed' in vehicle) {
-    return;
+if (!('maxSpeed' in vehicle)) {
+    vehicle.maxSpeed = 220;
   }
-  vehicle.maxSpeed = 220;
-}
 
 // 6 функция с выводом свойства объекта в консоль
 function logVehicleProperty(car, property) {
