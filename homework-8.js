@@ -20,8 +20,8 @@ const vehicle = {
 
 // 5 функция на проверку наличия максимальной скорости в объекте транспортного средства
 if (!('maxSpeed' in vehicle)) {
-    vehicle.maxSpeed = 220;
-  }
+  vehicle.maxSpeed = 220;
+}
 
 // 6 функция с выводом свойства объекта в консоль
 function logVehicleProperty(car, property) {
