@@ -18,9 +18,11 @@ const vehicle = {
   owner: user,
 }
 
-// 5 функция на проверку наличия максимальной скорости в объекте транспортного средства
-if (!('maxSpeed' in vehicle)) {
-  vehicle.maxSpeed = 220;
+// 5 функция на проверку наличия максимальноcти скорости и добавление свойства, если его нет
+function addMaxSpeed(vehicle) {
+  if (!('maxSpeed' in vehicle)) {
+    vehicle.maxSpeed = 220;
+}
 }
 
 // 6 функция с выводом свойства объекта в консоль
