@@ -22,7 +22,7 @@ const vehicle = {
 function addMaxSpeed(vehicle) {
   if (!('maxSpeed' in vehicle)) {
     vehicle.maxSpeed = 220;
-}
+  }
 }
 
 // 6 функция с выводом свойства объекта в консоль
