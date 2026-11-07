@@ -4,10 +4,12 @@ const productsList = document.querySelector(".products__list");
 const productTemplate = document.getElementById("product-template");
 
 const productsMap = products.reduce((acc, product) => {
-  acc[product.name] = product.purpose;
+  acc.push({
+    [product.name]: product.purpose
+  });
 
   return acc;
-}, {});
+}, []);
 
 console.log(productsMap);
 
